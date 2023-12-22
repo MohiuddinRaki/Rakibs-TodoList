@@ -45,9 +45,10 @@ const Login = () => {
         <title>Rakibs TodoList || Login</title>
       </Helmet>
       <div className="pt-16">
-        <h1 className="text-5xl text-center font-bold">Login Now!</h1>
+        <h1 className="text-5xl text-center font-bold">
+        <span className="text-rose-400">Login</span> Now!</h1>
         <div className="hero mt-14">
-          <div className="card md:w-1/2 w-full max-w-xl shadow-2xl bg-base-100 pb-6">
+          <div className="card md:w-1/2 w-full max-w-xl shadow-2xl bg-teal-500 pb-6">
             <form onSubmit={handleLogin} className="card-body">
               <div className="form-control">
                 <label className="label">

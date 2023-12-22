@@ -73,13 +73,15 @@ const Register = () => {
         <title>Global Blood Fund || register</title>
       </Helmet>
       <div className="pt-16">
-        <h1 className="text-5xl text-center font-bold">Sign Up Now!</h1>
+        <h1 className="text-5xl text-center font-bold">
+          <span className="text-rose-400">Sign Up</span> Now!
+        </h1>
         <div className="hero mt-14">
           {/* <div className="hero-content flex-col lg:flex-row-reverse"> */}
           {/* <div className="md:w-1/2 w-full max-w-xl">
          <img src="https://i.ibb.co/YW2kYcG/istockphoto-1349428314-640x640.jpg" alt="" />
           </div> */}
-          <div className="card md:w-1/2 w-full max-w-xl shadow-2xl bg-base-100 pb-6">
+          <div className="card md:w-1/2 w-full max-w-xl shadow-2xl bg-teal-500 pb-6">
             <form onSubmit={handleSubmit(onSubmit)} className="card-body">
               <div className="flex flex-col md:flex-row gap-5">
                 <div className="form-control w-1/2">

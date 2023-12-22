@@ -1,5 +1,6 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaVoicemail } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
+import "./footer.css";
 
 const Footer = () => {
   const links = [
@@ -53,7 +54,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <footer className="footer footer-center p-10 shadow-2xl bg-[#701c45] text-[#ed1b2f] rounded font-medium">
       <nav className="grid grid-flow-col gap-4">
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
