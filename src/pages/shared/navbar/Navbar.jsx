@@ -37,7 +37,7 @@ const Navbar = () => {
               <div className="items-center mr-2">
                 <img
                   className="rounded-full max-w-16 h-10"
-                  src="https://i.ibb.co/VH4RCT0/Document.jpg"
+                  src="https://i.ibb.co/C6VBCCV/preview.png"
                 />
               </div>
             </label>
